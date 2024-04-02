@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #EDEFEE;
+    font-family: "Markazi Text", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    margin-top: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+nav{
+    background-color: darkgray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gold;
+}
+
+#logo_header{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20rem;
+}
+
+#logo_footer{
+    width:20rem;
+}
+
+#promotion{
+    text-align: center;
+}
+
+#wedding_picture, #engagement_picture, #anniversary_picture{
+    max-width: 18rem;
+}
+
+#promotion_container{
+    position: relative;
+    text-align: center;
+}
+
+#text_centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 25rem;
+}
+
+#background_promotion{
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+#content_columns > article{
+    max-width: 20rem;
+    text-align: center;
+    background-color: rgb(236, 215, 228);
+    border-radius: 1rem;
+}
+
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
